@@ -1,0 +1,26 @@
+{
+  "name": "fly-position-convertor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangpengfeido/fly-position-convertor.git"
+  },
+  "author": "王彭飞",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangpengfeido/fly-position-convertor/issues"
+  },
+  "homepage": "https://github.com/wangpengfeido/fly-position-convertor#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.0.0"
+  }
+}
